@@ -37,8 +37,8 @@ function App() {
       {/* <Fetch/> */}
       {/* <Validation/> */}
       {/* <InstagramStories/> */}
-      <ButtonInput/>
-      <p>helo</p>
+      {/* <ButtonInput/> */}
+      {/* <p>helo</p> */}
       {/* <Onclick3/> */}
       {/* <InsatStories/> */}
       {/* <TodoWithoutBack/> */}
