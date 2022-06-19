@@ -55,6 +55,10 @@ Combinator selectors (select elements based on a specific relationship between t
 div p {
   background-color: yellow;
 }
+div p {
+  background-color: yellow;
+}
+
 Pseudo-class selectors (select elements based on a certain state)
 Pseudo-elements selectors (select and style a part of an element)
 Attribute selectors (select elements based on an attribute or attribute value)
