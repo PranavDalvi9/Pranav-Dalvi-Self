@@ -81,4 +81,8 @@ a:active {
 }
 
 Pseudo-elements selectors (select and style a part of an element)
+p::first-line {
+  color: #ff0000;
+  font-variant: small-caps;
+}
 Attribute selectors (select elements based on an attribute or attribute value)
