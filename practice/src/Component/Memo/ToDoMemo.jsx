@@ -5,13 +5,14 @@ const ToDoMemo = () => {
     const [name , setName] = useState("")
     const [numb , setNumb] = useState("")
     const [todo , setTodo] = useState([])
+    console.log(todo)
 
     const handleAdd = () => {
         const data = {
             name, numb
         }
-        // todo.push(data)
-        setTodo(...todo, data)
+        todo.push(data)
+        // setTodo(...todo, data)
     }
 
     return(
