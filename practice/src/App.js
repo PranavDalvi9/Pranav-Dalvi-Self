@@ -1,7 +1,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import { Routes, Route } from "react-router-dom";
-import Counter from "./Component/Counter/Counter";
+// import Counter from "./Component/Counter/Counter";
 import Fetch from "./Component/Fetch/Fetch";
 import Validation from "./Component/Validation/Validation";
 import InstagramStories from "./Component/InstagramStories/InstagramStories";
@@ -29,6 +29,8 @@ import DigitalClock from "./Component/DigitalClk/DigitalClk";
 import LoginInputForm from "./Component/LoginIputForm/LoginIputForm";
 import OnBlurInput from "./Component/OnBlurInput/OnBlurInput";
 import DataAppedndObject from "./Component/SelfPractice/DataAppedndObject";
+import Counter from "./Component/Memo/Counter"
+import ToDoMemo from "./Component/Memo/ToDoMemo"
 
 function App() {
   return (
@@ -76,7 +78,9 @@ function App() {
       {/* <OnBlurInput/> */}
 
       {/* <DataAppedndObject/> */}
-
+      
+      <Counter/>
+      <ToDoMemo/>
     </div>
   );
 }
