@@ -31,6 +31,7 @@ import OnBlurInput from "./Component/OnBlurInput/OnBlurInput";
 import DataAppedndObject from "./Component/SelfPractice/DataAppedndObject";
 import Counter from "./Component/Memo/Counter"
 import ToDoMemo from "./Component/Memo/ToDoMemo"
+import CenterDiv from "./Component/CenterDiv/CenterDiv";
 
 function App() {
   return (
@@ -79,8 +80,10 @@ function App() {
 
       {/* <DataAppedndObject/> */}
       
-      <Counter/>
-      <ToDoMemo/>
+      {/* <Counter/> */}
+      {/* <ToDoMemo/> */}
+
+      <CenterDiv/>
     </div>
   );
 }
