@@ -87,3 +87,8 @@ p::first-line {
 }
 
 Attribute selectors (select elements based on an attribute or attribute value)
+
+
+Git Fetch is the command that tells the local repository that there are changes available in the remote repository without bringing the changes into the local repository. 
+
+Git Pull Brings the copy of all the changes from a remote repository and merges them into the current branch
